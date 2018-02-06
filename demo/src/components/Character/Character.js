@@ -8,7 +8,7 @@ export default function Character(props) {
   const character = getCharacter(props.match.params.id)
 
   // We are rendering the character object below
-  
+
   return (
     <div>
       <h1>{character.name}</h1>
